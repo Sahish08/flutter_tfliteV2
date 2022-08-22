@@ -1,6 +1,6 @@
 # tflite
 
-A Flutter plugin for accessing TensorFlow Lite API. Supports image classification, object detection ([SSD](https://github.com/tensorflow/models/tree/master/research/object_detection) and [YOLO](https://pjreddie.com/darknet/yolov2/)), [Pix2Pix](https://phillipi.github.io/pix2pix/) and [Deeplab](https://github.com/tensorflow/models/tree/master/research/deeplab) and [PoseNet](https://www.tensorflow.org/lite/models/pose_estimation/overview) on both iOS and Android.
+A Flutter plugin for accessing TensorFlow Lite API. Supports image classification, object detection ([SSD](https://github.com/tensorflow/models/tree/master/research/object_detection) and [YOLO](https://pjreddie.com/darknet/yolov2/)), [Pix2Pix](https://phillipi.github.io/pix2pix/) and [Deeplab](https://github.com/tensorflow/models/tree/master/research/deeplab) and [PoseNet](https://www.tensorflow.org/lite/models/pose_estimation/overview) on both iOS and Android. This repository expands on the tflite plugin developed at https://github.com/shaqian/flutter_tflite by updating the embedding used in the iOS and Android configuration files in order to avoid deprecated functions. Particularly, this plugin is compatible with Android V2 embedding while the original plugin was targeted only for Android V1 embedding.
 
 ### Table of Contents
 
